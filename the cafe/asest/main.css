@@ -1,0 +1,92 @@
+/* Navbar */
+
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20; 
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 15px;
+    position: fixed;
+    line-height: 22.5px;
+}
+
+.nav-item:hover{
+    background-color: #ccc;
+}
+.img-img img{
+    background-position:center;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-size: cover;
+    height: 700px;
+    min-height: 75%;
+    } 
+
+.img-text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header-img p{
+position: relative;
+transform: translateY(-30px)
+}
+.header-img h1{
+position: relative;
+transform: translateY(-450px)
+} 
+.header-img span{
+position: relative;
+transform: translateY(-30px)
+}
+.about{
+    margin-top: -200px;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about p{
+    width: 700px;
+}
+.about img{
+    width: 700px;
+}
+.menu-choose{
+    display: flex;
+    gap:10px;
+    width: 700px;
+    margin-top: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
+.themenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-left: 15px;
+
+}
+.where{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  margin-top: 30px;
+}
